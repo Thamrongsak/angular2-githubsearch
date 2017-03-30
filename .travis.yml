@@ -21,8 +21,6 @@ before_script:
 - ng build -prod --baseHref /angular2-githubsearch/
 - cp ./dist/index.html ./dist/404.html
 
-script: ng test --single-run
-
 deploy:
   provider: pages
   skip_cleanup: true
